@@ -1,12 +1,16 @@
 import React,{FC} from 'react'
-
+import Style from "./Button.module.css";
 interface iProp {
   btnText:string
 }
 const Button:FC<iProp> = ({btnText}) => {
   return (
-    <div>Button</div>
-  )
+    <div className={Style.box}>
+      <button className={Style.button} >
+        {btnText}
+      </button>
+    </div>
+  );
 }
 
 export default Button
