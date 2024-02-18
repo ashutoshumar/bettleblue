@@ -40,7 +40,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 2rem;
+  padding: 1rem 2rem;
   background-color: var(--icons-color);
   color: var(--shadow-dark-color);
   border-radius: 5rem;
@@ -51,7 +51,7 @@
   background: transparent;
   border: none;
   outline: none;
-  width: 90%;
+  width: 80%;
   color: var(--shadow-dark-color);
 }
 
@@ -61,7 +61,7 @@
 
 .subscribe_box_send {
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .subscribe_box_info {

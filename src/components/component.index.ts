@@ -10,4 +10,9 @@ import Category from "./category/Category";
 import Filter from "./filter/Filter";
 import NftCard from "./nftCard/NftCard";
 import Collection from "./collection/Collection";
-export {Button,Footer,Navbar,HeroSection,Service,BigNFTSilder,Subscribe,Title,Category,Filter,NftCard,Collection}
+import FollowerTab from "./followerTab/FollowerTab";
+import AudioLive from "./audioLive/AudioLive";
+import Slider from "./slider/Slider";
+import Brand from "./brand/Brand";
+import Video from "./video/Video";
+export {Button,Footer,Navbar,HeroSection,Service,BigNFTSilder,Subscribe,Title,Category,Filter,NftCard,Collection,FollowerTab, AudioLive,Slider,Brand,Video}

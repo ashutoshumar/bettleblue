@@ -44,7 +44,7 @@
 
 .subscribe_box_left_input {
   margin-top: 3rem;
-  padding: 2rem;
+  padding: 1rem;
   width: 80%;
   border-radius: 4rem;
   background-color: var(--icons-color);
@@ -58,7 +58,7 @@
   background-color: transparent;
   border: 0;
   outline: none;
-  width: 90%;
+  width: 80%;
 }
 
 .subscribe_box_left_input input::placeholder {
@@ -67,7 +67,7 @@
 }
 
 .subscribe_box_left_input_icon {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
