@@ -15,4 +15,5 @@ import AudioLive from "./audioLive/AudioLive";
 import Slider from "./slider/Slider";
 import Brand from "./brand/Brand";
 import Video from "./video/Video";
-export {Button,Footer,Navbar,HeroSection,Service,BigNFTSilder,Subscribe,Title,Category,Filter,NftCard,Collection,FollowerTab, AudioLive,Slider,Brand,Video}
+import LikeProfile from "./LikeProfile/LikeProfile";
+export {Button,Footer,Navbar,HeroSection,Service,BigNFTSilder,Subscribe,Title,Category,Filter,NftCard,Collection,FollowerTab, AudioLive,Slider,Brand,Video,LikeProfile}

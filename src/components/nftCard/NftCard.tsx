@@ -5,7 +5,7 @@ import { BsImages } from "react-icons/bs";
 import Image from "next/image";
 
 
-import Style from "./NFTCard.module.css";
+import Style from "./NftCard.module.css";
 import images from "../../../public/img"
 
 
