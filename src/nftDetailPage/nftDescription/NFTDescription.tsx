@@ -22,7 +22,7 @@ import { BiTransferAlt, BiDollar } from "react-icons/bi";
 //INTERNAL IMPORT
 import Style from "./NFTDescription.module.css";
 import images from "../../../public/img";
-import { Button } from "../../components/component.index.js";
+import { Button } from "@/components/component.index";
 import { NFTTabs } from "../NFTDetailsIndex";
 
 const NFTDescription = () => {

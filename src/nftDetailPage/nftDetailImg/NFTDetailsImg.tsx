@@ -6,7 +6,7 @@ import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 import { TiArrowSortedDown, TiArrowSortedUp } from "react-icons/ti";
 
 //INTERNAL IMPORT
-import Style from "./NFTDetailsImg.module.css";
+import Style from "./NFTDetailImg.module.css";
 import images from "../../../public/img";
 
 const NFTDetailsImg = () => {

@@ -43,7 +43,7 @@ const Sidebar:FC<iProp> = ({setOpenSidebar}) => {
     },
     {
       name: "Account Setting",
-      link: "account-setting",
+      link: "account",
     },
     {
       name: "Connect Wallet",

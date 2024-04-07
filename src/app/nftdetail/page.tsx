@@ -9,7 +9,7 @@ const NFTDetails = () => {
     <div>
       <NFTDetailsPage />
       <Category />
-      <Brand />
+      {/* <Brand /> */}
     </div>
   );
 };
