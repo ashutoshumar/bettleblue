@@ -24,9 +24,11 @@ import service1 from "./service-1.png";
 import service2 from "./service-2.png";
 import service3 from "./service-3.png";
 import service4 from "./service-4.png";
-import logoLight from "./logo-light.svg";
-import logo from "./logo.svg";
 import logoo from "./logoo.png"
+import metamask from "./metamask_logo.svg"
+import walletconnect from "./walletconnect.png"
+import trustwallet from "./trustwallet.png"
+import fortmatic from "./fortmatic.svg"
 import facebook from "./facebook.svg";
 import twitter from "./twitter.svg";
 import telegram from "./telegram.svg";
@@ -35,6 +37,7 @@ import vimeo from "./vimeo.svg";
 import vector from "./VectorHIW.svg";
 import zgcmq from "./zgcmq.svg";
 import hero from "./hero.png";
+import heroo from './heroo.png'
 import nft_1 from "./nft_1.png";
 import getAble from "./getable.png";
 import nft_image_1 from "./nft-image-1.png";
@@ -53,6 +56,7 @@ export default {
   getAble,
   nft_1,
   hero,
+  heroo,
   creatorbackground1,
   creatorbackground2,
   creatorbackground3,
@@ -78,9 +82,8 @@ export default {
   service2,
   service3,
   service4,
-  logo,
   logoo,
-  logoLight,
+  metamask,
   facebook,
   telegram,
   twitter,
@@ -88,4 +91,7 @@ export default {
   vimeo,
   youtube,
   zgcmq,
+  walletconnect,
+  trustwallet,
+  fortmatic,
 };

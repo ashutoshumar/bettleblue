@@ -1,11 +1,11 @@
 "use client"
 import React,{useState,useEffect} from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+
 
 import {MdNotifications} from "react-icons/md"
 import {BsSearch} from "react-icons/bs"
-import {CgMenuLeft,CgMenuRight} from "react-icons/cg"
+import {CgMenuRight} from "react-icons/cg"
 
 import Style from "./NavBar.module.css";
 import { Discover,Sidebar,Notification,HelpCenter,Profile } from './index'
@@ -24,17 +24,25 @@ const Navbar = () => {
     const btnText =input.innerText;
     if(btnText=="Discover")
     {
-      setDiscover(true)
+      if(!discover)
+     { setDiscover(true)
       setNotification(false)
       setProfile(false)
-      setHelp(false)
+      setHelp(false)}
+      else{
+        setDiscover(false)
+      }
     }
     else if(btnText=="Help Center")
     {
-      setDiscover(false)
+      if(!help){setDiscover(false)
       setNotification(false)
       setProfile(false)
-      setHelp(true)
+      setHelp(true)}
+      else
+      {
+        setHelp(false)
+      }
     }
     else
     {

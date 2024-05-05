@@ -11,6 +11,7 @@
 
 .daysComponent_box_img_img {
   border-radius: 1rem;
+  width:100%;
 }
 
 .daysComponent_box_profile {
@@ -21,9 +22,15 @@
 
 .daysComponent_box_img_1 {
   border-bottom-left-radius: 1rem;
+  width:100%;
+}
+.daysComponent_box_img_2 {
+  border-bottom-left-radius: 1rem;
+  width:100%;
 }
 .daysComponent_box_img_3 {
   border-bottom-right-radius: 1rem;
+  width:100%;
 }
 
 .daysComponent_box_title {

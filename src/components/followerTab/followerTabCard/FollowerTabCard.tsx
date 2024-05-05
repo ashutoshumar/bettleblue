@@ -40,7 +40,7 @@ const FollowerTabCard:FC<iProp> = ({ i, el }) => {
             className={Style.FollowerTabCard_box_img_img}
             src={el.background}
             alt="profile braground"
-            width={300}
+            width={0}
             height={300}
             
           />
@@ -52,7 +52,7 @@ const FollowerTabCard:FC<iProp> = ({ i, el }) => {
             alt="profile picture"
             width={50}
             height={50}
-            src={el.background}
+            src={el.user}
           />
         </div>
 

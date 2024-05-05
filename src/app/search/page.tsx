@@ -23,12 +23,12 @@ const searchPage = () => {
   ];
   return (
     <div className={Style.searchPage}>
-      <Banner bannerImage={images.creatorbackground2} />
+     
       <SearchBar />
       <Filter />
       <NFTCardTwo NFTData={collectionArray} />
       <Slider />
-      <Brand />
+   
     </div>
   );
 };

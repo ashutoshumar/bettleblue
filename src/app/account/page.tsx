@@ -17,7 +17,10 @@ const account = () => {
   
     const { getRootProps, getInputProps } = useDropzone({
       onDrop,
-      accept: 'image/*',
+      accept: {
+        'image/jpeg': [],
+        'image/png': []
+      },
       maxSize: 5000000,
     });
 
@@ -35,7 +38,7 @@ const account = () => {
         <div className={Style.account_box_img} {...getRootProps()}>
           <input {...getInputProps()} />
           <Image
-            src={images.user1}
+            src={images.user9}
             alt="account upload"
             width={150}
             height={150}

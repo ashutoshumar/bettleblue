@@ -4,25 +4,24 @@ import Image from "next/image";
 
 //INTERNAL IMPORT
 import Style from "./aboutus.module.css";
-import { Brand } from "@/components/component.index";
 import images from "../../../public/img";
 
 const aboutus = () => {
   const founderArray = [
     {
-      name: "Niamh O'Shea",
+      name: "Ashutosh Kumar",
       position: "Co-founder and Chief Executive",
-      images: images.creatorbackground2,
+      images: images.user8,
     },
     {
       name: "Danien Jame",
       position: "Co-founder and Chief Executive",
-      images: images.creatorbackground5,
+      images: images.user9,
     },
     {
       name: "Orla Dwyer",
       position: "Co-founder, Chairman",
-      images: images.creatorbackground5,
+      images: images.user3,
     },
     {
       name: "Dara Frazier",
@@ -58,7 +57,7 @@ const aboutus = () => {
             </p>
           </div>
           <div className={Style.aboutus_box_hero_right}>
-            <Image src={images.hero} alt=""/>
+            <Image src={images.heroo} alt="" height={500} width={500}/>
           </div>
         </div>
 

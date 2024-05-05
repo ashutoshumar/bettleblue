@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Link from 'next/link'
 
@@ -16,19 +17,19 @@ const Discover = () => {
     },
     {
       name:"Author Profile",
-      link:"author-profile"
+      link:"author"
     },
     {
       name: "NFT Details",
-      link: "NFT-details",
+      link: "nftdetail",
     },
     {
       name: "Account Setting",
-      link: "account-setting",
+      link: "account",
     },
     {
       name: "Connect Wallet",
-      link: "connect-wallet",
+      link: "connectwallet",
     },
     {
       name: "Blog",
@@ -40,7 +41,7 @@ const Discover = () => {
       {
         discover.map((el,i)=>(
           <div key={i+1} className={Style.discover}>
-            <Link href={{pathname:`${el.link}`}}>
+            <Link href={`/${el.link}`}>
               {el.name}
             </Link>
           </div>

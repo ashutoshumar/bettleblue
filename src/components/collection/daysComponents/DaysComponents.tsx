@@ -24,7 +24,7 @@ const DaysComponents:FC<iProp> = ({i,el}) => {
             src={el.background}
             className={Style.daysComponent_box_img_img}
             alt="profile background"
-            width={300}
+            width={0}
             height={300}
            
           />
@@ -34,7 +34,7 @@ const DaysComponents:FC<iProp> = ({i,el}) => {
           <Image
             src={images.creatorbackground2}
             alt="profile"
-            width={100}
+            width={0}
             height={100}
             className={Style.daysComponent_box_img_1}
            
@@ -42,7 +42,7 @@ const DaysComponents:FC<iProp> = ({i,el}) => {
           <Image
             src={images.creatorbackground2}
             alt="profile"
-            width={100}
+            width={0}
             height={100}
             className={Style.daysComponent_box_img_2}
            
@@ -50,7 +50,7 @@ const DaysComponents:FC<iProp> = ({i,el}) => {
           <Image
             src={images.creatorbackground2}
             alt="profile"
-            width={100}
+            width={0}
             height={100}
             className={Style.daysComponent_box_img_3}
            

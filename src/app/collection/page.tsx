@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 
 //INTERNAL IMPORT
@@ -24,13 +25,12 @@ const collection = () => {
   ];
   return (
     <div className={Style.collection}>
-      <Banner bannerImage={images.creatorbackground1} />
       <CollectionProfile />
       <Filter />
       <NFTCardTwo NFTData={collectionArray} />
 
       <Slider />
-      {/* <Brand /> */}
+     
     </div>
   );
 };

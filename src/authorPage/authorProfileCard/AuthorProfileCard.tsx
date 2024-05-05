@@ -76,6 +76,7 @@ const AuthorProfileCard = () => {
               type="text"
               value="0x829BD824B03D092293333..A830"
               id="myInput"
+             readOnly
             />
             <FiCopy
               onClick={() => copyAddress()}

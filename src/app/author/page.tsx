@@ -3,8 +3,7 @@ import React, { useState, useEffect } from "react";
 
 //INTERNAL IMPORT
 import Style from "./author.module.css";
-import { Banner, NFTCardTwo } from "../../collectionPage/collectionIndex";
-import { Brand, Title } from "../../components/component.index";
+import { Title } from "../../components/component.index";
 import FollowerTabCard from "../../components/followerTab/followerTabCard/FollowerTabCard";
 import images from "../../../public/img";
 import {
@@ -49,7 +48,6 @@ const author = () => {
 
   return (
     <div className={Style.author}>
-      <Banner bannerImage={images.creatorbackground2} />
       <AuthorProfileCard />
       <AuthorTaps
         setCollectiables={setCollectiables}
@@ -58,7 +56,7 @@ const author = () => {
         setFollower={setFollower}
         setFollowing={setFollowing}
       />
-
+      
       <AuthorNFTCardBox
         collectiables={collectiables}
         created={created}
@@ -66,6 +64,7 @@ const author = () => {
         follower={follower}
         following={following}
       />
+     
       <Title
         heading="Popular Creators"
         paragraph="Click on music icon and enjoy NTF music or audio
@@ -73,11 +72,11 @@ const author = () => {
       />
       <div className={Style.author_box}>
         {followerArray.map((el, i) => (
-          <FollowerTabCard i={i} el={el} />
+          <FollowerTabCard key={+1} i={i} el={el} />
         ))}
       </div>
 
-      <Brand />
+     
     </div>
   );
 };

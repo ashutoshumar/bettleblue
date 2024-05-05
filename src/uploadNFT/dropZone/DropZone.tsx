@@ -40,7 +40,10 @@ const DropZone:FC<iProp> = ({
 
   const { getRootProps, getInputProps } = useDropzone({
     onDrop,
-    accept: 'image/*',
+    accept: {
+      "images/png":[],
+      "images/jpeg":[],
+    },
     maxSize: 5000000,
   });
   return (
@@ -55,7 +58,6 @@ const DropZone:FC<iProp> = ({
               alt="upload"
               width={100}
               height={100}
-              objectFit="contain"
               className={Style.DropZone_box_input_img_img}
             />
           </div>

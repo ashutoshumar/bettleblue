@@ -9,19 +9,19 @@ const connectWallet = () => {
   const [activeBtn, setActiveBtn] = useState(1);
   const providerArray = [
     {
-      provider: images.service1,
+      provider: images.metamask,
       name: "Metamask",
     },
     {
-      provider: images.service2,
+      provider: images.walletconnect,
       name: "walletConnect",
     },
     {
-      provider: images.service3,
-      name: "walletlink",
+      provider: images.trustwallet,
+      name: "Trust Wallet",
     },
     {
-      provider: images.service4,
+      provider: images.fortmatic,
       name: "Formatic",
     },
   ];

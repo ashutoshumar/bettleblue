@@ -3,7 +3,7 @@ import React,{FC} from "react";
 import { TiTick } from "react-icons/ti";
 
 //INTERNAL IMPORT
-import Style from "../Subscription/Subscription.module.css";
+import Style from "./Subscription.module.css";
 import { Button } from "@/components/component.index";
 interface iProp{
     el:{
